@@ -439,6 +439,19 @@ To contribute, first install the dependencies:
 npm install
 ```
 
+Since gulp (legacy) is used, you might see the following error: "primordials is not defined".
+More information can be found here but for npm <= 8.3 users, you might run: 
+
+```sh
+npm dev:preinstall
+```
+
+Then you can try the build by running
+```sh
+npm build
+```
+
+
 Then setup the test project:
 
 ```sh

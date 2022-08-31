@@ -1,9 +1,9 @@
 {
-  "name": "cordova-plugin-qrscanner",
-  "version": "3.0.1",
+  "name": "cordova-plugin-qrscanner-x2",
+  "version": "3.0.2",
   "description": "Fast, energy-efficient, highly-configurable QR code scanner.",
   "cordova": {
-    "id": "cordova-plugin-qrscanner",
+    "id": "cordova-plugin-qrscanner-x2",
     "platforms": [
       "ios"
     ]
@@ -26,7 +26,7 @@
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
     "commitmsg": "validate-commit-msg",
     "prep-release": "git clean -dfx && npm install && npm run build && npm run changelog",
-    "preinstall": "npx npm-force-resolutions"
+    "dev:preinstall": "npx npm-force-resolutions"
   },
   "resolutions": {
     "graceful-fs": "^4.2.10"
